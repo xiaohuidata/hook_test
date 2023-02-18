@@ -1,0 +1,69 @@
+{
+  // 命令行显示
+  "cmd": true,
+  // 监听数
+  "mode_total": 1,
+  // 监听1
+  "mode1": {
+    // 监听按键数
+    "state_total": 2,
+    // 监听键1
+    "state1": {
+      // 监听类型：字符 char，数字 int。
+      "type": "char",
+      // 监听值，char单个字符，一定得大写，
+      "value": "A"
+    },
+    // 监听键2
+    "state2": {
+      // 数字 int
+      "type": "int",
+      // int对应:https://blog.csdn.net/weixin_42129248/article/details/89738210
+      "value": 65
+    },
+    // 连续操作数
+    "task_total": 2,
+    "task1": {
+
+      // tasks中的会一起按
+      "tasks": [
+        {
+          // 类型 键盘 keyboard
+          "type": "keyboard",
+          // 按键类型：字符 char
+          "Type": "char",
+          // 值大写写字符键
+          "value": "A"
+        },
+        {
+          // 类型 键盘 keyboard
+          "type": "keyboard",
+          // 数字 int
+          "Type": "int",
+          // 按键码，十进制
+          "value": 65
+        }
+      ]
+    },
+    "task2": {
+
+      "tasks": [
+        {
+          // 鼠标
+          "type": "mouse",
+          // l 左，r 又，m 滚轮点击
+          "x": 0,
+          "y": 0,
+          "value": "r"
+        },
+        {
+          // 鼠标
+          "type": "mouse",
+          "x": 0,
+          "y": 0,
+          "value": "l"
+        }
+      ]
+    }
+  }
+}

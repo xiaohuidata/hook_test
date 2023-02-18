@@ -1,0 +1,50 @@
+{
+  "cmd": true,
+  "mode_total": 1,
+  "mode1": {
+    "state_total": 3,
+    "state1": {
+      "type": "int",
+      "value": 27
+    },
+    "state2": {
+      "type": "int",
+      "value": 80
+    },
+    "state3": {
+      "type": "char",
+      "value": "P"
+    },
+    "task_total": 3,
+    "task1": {
+      "tasks": [
+        {
+          "type": "mouse",
+          "x": 958,
+          "y": 642,
+          "value": "l"
+        }
+      ]
+    },
+    "task2": {
+      "tasks": [
+        {
+          "type": "mouse",
+          "x": 898,
+          "y": 568,
+          "value": "l"
+        }
+      ]
+    },
+    "task3": {
+      "tasks": [
+        {
+          "type": "mouse",
+          "x": 898,
+          "y": 568,
+          "value": "l"
+        }
+      ]
+    }
+  }
+}
